@@ -27,7 +27,6 @@ function getTodoList() {
     }
 }
 
-
 function displayTodoList() {
     let list = document.querySelector("#todo-list");
     list.innerHTML = "";
@@ -42,10 +41,38 @@ function displayTodoList() {
     }
 }
 
-
 let allP = document.getElementsByTagName("p");
 console.log(allP);
 let firstP = document.getElementsByTagName("p")[0];
 console.log(firstP);
+firstP.innerText = "BOUUUUUUUUDUUUUUUUUUUU";
 
-firstP.innerText = "BOUUUUUUUUDUUUUUUUUUUU"
+
+
+
+//! EXO 20.1 
+//TODO: Créer une ƒ° ajouterTexte qui prend 2 params : pseudo et duTexte
+//TODO: La fonction a pour but :
+//TODO: de créer puis remplir et enfin placer un paragraphe contenant pseudo et duTexte, dans la page
+// TODO (Bonus) : Dans le paragraphe le pseudo est affiché en gras
+
+
+function ajouterTexte(pseudo, duTexte) {
+    let p = document.createElement("p");
+    let strong = document.createElement("strong");
+    let boldPseudo = document.createTextNode(pseudo);
+    strong.appendChild(boldPseudo);
+    p.appendChild(strong);
+    let text = document.createTextNode("  -  "+duTexte);
+    p.appendChild(text);
+    let parent = document.querySelector('.truxExo');
+    parent.appendChild(p);
+  }
+
+
+
+
+ajouterTexte('José','Gracia');
+ajouterTexte('Grigny','La grande Borne');
+ajouterTexte('Roi','Heenok');
+ajouterTexte('Dongue','Rodrigue');
