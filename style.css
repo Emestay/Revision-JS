@@ -1,0 +1,22 @@
+.btnAdd{
+    background: linear-gradient(to right,#19ca59 ,#098731);
+    background-color: #19ca59;
+    color: #fff;
+    font-family: Trebuchet MS;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+    text-decoration: none;
+    padding: 14px 15px;
+    border: 0px solid #000;
+    border-radius: 0px;
+    display: inline-block;
+    box-shadow: 7px 6px 0px 1px rgba(90.3330005451799,174.9140989780426,8.865036982625014,0.5);
+   }
+   .btnAdd:hover{
+    background: linear-gradient(to right,#54d075 ,#51975d);
+    background-color: #54d075;
+   }
+   .btnAdd:active{
+    transform: scale(0.95);
+   }
