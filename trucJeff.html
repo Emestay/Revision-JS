@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cours-JS</title>
+    <style>
+        .maCouleur{
+            color : crimson;
+            background-color: rgb(122, 228, 228);
+            font-family: Impact;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>Intro JS</h1>
+    <a href="#" onclick="addClass()">Ajouter Classe</a>
+    <a href="#" onclick="rmClass()">Supprimer Classe</a>
+    <a href="#" onclick="toggleClass()">Toggle Classe</a>
+    <h1 class="elTitro">NE PARTEZ PAS, Nous Zappons pour vous !</h1>
+    <input type="text">
+    <br>
+    <br>
+    <textarea></textarea>
+    <button>Je veux Tweeter</button>
+    <script>
+        function addClass(){
+            let truc = document.querySelector('.elTitro');  
+            truc.classList.add("maCouleur");
+        }
+
+        function rmClass(){
+            let truc = document.querySelector('.elTitro');  
+            truc.classList.remove("maCouleur");
+        }
+
+        function toggleClass(){
+            let truc = document.querySelector('.elTitro');  
+            truc.classList.toggle("maCouleur");
+        }
+
+
+    </script>
+</body>
+</html>
