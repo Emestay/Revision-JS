@@ -1,8 +1,6 @@
 document.querySelector("form").addEventListener("submit", addTodo);
 document.addEventListener("DOMContentLoaded", getTodoList);
-document.querySelectorAll("li button").forEach(function(el){
-    el.addEventListener("click", deleteTodo);
-});
+
 let todoList = [];
 
 
