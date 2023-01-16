@@ -41,3 +41,11 @@ function displayTodoList() {
         list.appendChild(item);
     }
 }
+
+
+let allP = document.getElementsByTagName("p");
+console.log(allP);
+let firstP = document.getElementsByTagName("p")[0];
+console.log(firstP);
+
+firstP.innerText = "BOUUUUUUUUDUUUUUUUUUUU"
