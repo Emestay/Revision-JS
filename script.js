@@ -28,7 +28,6 @@ function getTodoList() {
 }
 
 
-
 function displayTodoList() {
     let list = document.querySelector("#todo-list");
     list.innerHTML = "";
