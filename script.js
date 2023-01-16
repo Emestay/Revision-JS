@@ -76,3 +76,7 @@ ajouterTexte('José','Gracia');
 ajouterTexte('Grigny','La grande Borne');
 ajouterTexte('Roi','Heenok');
 ajouterTexte('Dongue','Rodrigue');
+ajouterTexte('Youssef','Est d\'une intelligence encore inégalé');
+
+
+//! <p> <Strong> </p>
